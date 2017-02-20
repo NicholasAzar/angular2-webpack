@@ -11,12 +11,15 @@ import { routing } from './app.routing';
 
 import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 
+import {NgSelectizeModule} from 'ng-selectize';
+
 @NgModule({
   imports: [
     BrowserModule,
     HttpModule,
     FormsModule,
-    routing
+    routing,
+    NgSelectizeModule
   ],
   declarations: [
     AppComponent,

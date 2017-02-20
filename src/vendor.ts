@@ -11,3 +11,5 @@ import '@angularclass/hmr';
 
 // Other vendors for example jQuery, Lodash or Bootstrap
 // You can import js, ts, css, sass, ...
+window['$'] = require('jquery');
+import 'ng-selectize/selectize/selectize.standalone.js';

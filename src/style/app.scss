@@ -1,4 +1,7 @@
 // styles in src/style directory are applied to the whole page
+@import "../../node_modules/selectize/dist/css/selectize.css";
+@import "../../node_modules/ng-selectize/selectize/selectize.semantic.css";
+
 body {
     background: #0147A7;
     color: #fff;
